@@ -171,7 +171,7 @@ module.exports = {
 					min: -9999,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: 'Maximum/Minimum range is half minus one of the horizontal size.',
 				},
 				{
@@ -182,7 +182,7 @@ module.exports = {
 					min: -9999,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: 'Maximum/Minimum range is half minus one of the vertical size.',
 				},
 				{
@@ -193,7 +193,7 @@ module.exports = {
 					min: -9999,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: ' Maximum/Minimum range is half minus one of the horizontal size.',
 				},
 				{
@@ -204,7 +204,7 @@ module.exports = {
 					min: -9999,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: ' Maximum/Minimum range is half minus one of the vertical size.',
 				},
 
@@ -216,7 +216,7 @@ module.exports = {
 					min: 0,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: ' Maximum range is half minus one of the horizontal size.',
 				},
 				{
@@ -227,7 +227,7 @@ module.exports = {
 					min: 0,
 					max: 9999,
 					required: false,
-                    useVariables: true,
+					useVariables: true,
 					tooltip: ' Maximum range is half minus one of the vertical size.',
 				},
 				{
@@ -235,7 +235,7 @@ module.exports = {
 					label: 'Zoom/Crop',
 					id: 'zoomCrop',
 					default: 'false',
-                    useVariables: true,
+					useVariables: true,
 					choices: self.zoomCrop,
 				},
 			],
